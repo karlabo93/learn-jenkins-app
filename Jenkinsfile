@@ -2,6 +2,11 @@ pipeline {
     agent any
 
     stages {
+        // this is a comment
+        /*
+        More
+        Comments
+        */
         stage('Build') {
             agent {
                 docker {
